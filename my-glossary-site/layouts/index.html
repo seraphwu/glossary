@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>園藝科技術語詞典</title>
+
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #fdfdfd;
+        }
+
+        .container {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .sidebar {
+            width: 280px;
+            background-color: #f9f9f9;
+            border-right: 1px solid #ddd;
+            padding: 20px;
+            height: 100vh;
+            overflow-y: auto;
+            position: sticky;
+            top: 0;
+        }
+
+        .sidebar h3 {
+            margin-top: 0;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin-top: 5px;
+        }
+
+        .sidebar li a {
+            text-decoration: none;
+            color: #0056b3;
+            display: block;
+            padding: 5px 0;
+            border-radius: 4px;
+        }
+
+        .sidebar li a:hover {
+            text-decoration: underline;
+            background-color: #eee;
+        }
+
+        .sidebar .stroke-count {
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .stroke-heading {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #333;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #ddd;
+        }
+
+
+        .content {
+            flex: 1;
+            padding: 20px;
+            max-width: 900px;
+        }
+
+        .term-entry {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fff;
+            scroll-margin-top: 20px;
+        }
+
+        .term-header {
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+
+        .term-header h2 {
+            margin: 0;
+        }
+
+        .term-meta {
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        .definition-block {
+            margin-top: 10px;
+            padding-left: 15px;
+            border-left: 3px solid #007acc;
+        }
+
+        .definition-block p:first-child {
+            margin-top: 0;
+        }
+
+        .definition-block p:last-child {
+            margin-bottom: 0;
+        }
+
+        .source {
+            font-style: italic;
+            font-size: 0.9em;
+            color: #333;
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px dashed #eee;
+        }
+
+        .author {
+            font-size: 0.9em;
+            color: #333;
+        }
+
+        .aliases,
+        .category {
+            font-size: 0.85em;
+            background-color: #f4f4f4;
+            padding: 2px 8px;
+            border-radius: 12px;
+            display: inline-block;
+            margin-right: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <nav class="sidebar">
+            <h3>條目索引 (依筆畫)</h3>
+
+            {{ $groupedTerms := .Site.Data.glossary | groupBy "strokes" | sort "Key" }}
+
+            {{ range $group := $groupedTerms }}
+
+            {{ if gt $group.Key 0 }}
+            <h4 class="stroke-heading">{{ $group.Key }} 劃</h4>
+            {{ else }}
+            <h4 class="stroke-heading">其他 (0 劃)</h4>
+            {{ end }}
+
+            <ul>
+                {{ range sort $group.Items "term" }}
+                <li>
+                    <a href="#term-{{ .uid }}">
+                        {{ .term }}
+                        <span class="stroke-count">({{ .strokes }} 劃)</span>
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
+
+            {{ end }}
+        </nav>
+        <main class="content">
+            <h1>園藝科技術語詞典</h1>
+
+            {{ $groupedTerms := .Site.Data.glossary | groupBy "strokes" | sort "Key" }}
+            {{ range $group := $groupedTerms }}
+
+            {{ if gt $group.Key 0 }}
+            <h2 class="stroke-heading">{{ $group.Key }} 劃</h2>
+            {{ else }}
+            <h2 class="stroke-heading">其他 (0 劃)</h2>
+            {{ end }}
+
+            {{ range sort $group.Items "term" }}
+            <div class="term-entry" id="term-{{ .uid }}">
+                <div class="term-header">
+                    <h2>
+                        {{ .term }}
+                        <span class="term-meta">
+                            ({{ .strokes }} 劃{{ if .original_name }} / {{ .original_name }}{{ end }})
+                        </span>
+                    </h2>
+                </div>
+
+                {{ if .aliases }}
+                <div style="margin-bottom: 10px;">
+                    <strong>同義詞：</strong>
+                    {{ range .aliases }}
+                    <span class="aliases">{{ . }}</span>
+                    {{ end }}
+                </div>
+                {{ end }}
+
+                {{ if .category }}
+                <div style="margin-bottom: 10px;">
+                    <strong>分類：</strong>
+                    {{ range .category }}
+                    <span class="category">{{ . }}</span>
+                    {{ end }}
+                </div>
+                {{ end }}
+
+                {{ range .definitions }}
+                <div class="definition-block">
+                    {{ .text | markdownify }}
+
+                    <p class="source">
+                        <strong>來源：</strong>{{ .source }}
+                        {{ if .author }}
+                        (作者：{{ .author }})
+                        {{ end }}
+                    </p>
+                </div>
+                {{ end }}
+
+            </div>
+            {{ end }} {{ end }}
+        </main>
+
+    </div>
+
+</body>
+
+</html>
