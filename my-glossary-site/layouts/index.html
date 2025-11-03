@@ -150,18 +150,23 @@
         <nav class="sidebar">
             <h3>條目索引 (依筆畫)</h3>
 
-            {{ $groupedTerms := .Site.Data.glossary | groupBy "strokes" | sort "Key" }}
+            {{/* 首先獲取所有獨特的筆畫數，並進行排序 */}}
+            {{ $allStrokes := slice }}
+            {{ range .Site.Data.glossary }}
+            {{ $allStrokes = $allStrokes | append .strokes }}
+            {{ end }}
+            {{ $uniqueSortedStrokes := $allStrokes | uniq | sort }}
 
-            {{ range $group := $groupedTerms }}
-
-            {{ if gt $group.Key 0 }}
-            <h4 class="stroke-heading">{{ $group.Key }} 劃</h4>
+            {{ range $strokeNum := $uniqueSortedStrokes }}
+            {{ if gt $strokeNum 0 }}
+            <h4 class="stroke-heading">{{ $strokeNum }} 劃</h4>
             {{ else }}
             <h4 class="stroke-heading">其他 (0 劃)</h4>
             {{ end }}
 
             <ul>
-                {{ range sort $group.Items "term" }}
+                {{/* 篩選出當前筆畫數的條目，並按 term 排序 */}}
+                {{ range sort (where $.Site.Data.glossary "strokes" $strokeNum) "term" }} {{/* 注意這裡的 $. */}}
                 <li>
                     <a href="#term-{{ .uid }}">
                         {{ .term }}
@@ -176,16 +181,23 @@
         <main class="content">
             <h1>園藝科技術語詞典</h1>
 
-            {{ $groupedTerms := .Site.Data.glossary | groupBy "strokes" | sort "Key" }}
-            {{ range $group := $groupedTerms }}
+            {{/* 再次遍歷獨特的筆畫數，顯示主要內容 */}}
+            {{ $allStrokes := slice }}
+            {{ range .Site.Data.glossary }}
+            {{ $allStrokes = $allStrokes | append .strokes }}
+            {{ end }}
+            {{ $uniqueSortedStrokes := $allStrokes | uniq | sort }}
 
-            {{ if gt $group.Key 0 }}
-            <h2 class="stroke-heading">{{ $group.Key }} 劃</h2>
+            {{ range $strokeNum := $uniqueSortedStrokes }}
+
+            {{ if gt $strokeNum 0 }}
+            <h2 class="stroke-heading">{{ $strokeNum }} 劃</h2>
             {{ else }}
             <h2 class="stroke-heading">其他 (0 劃)</h2>
             {{ end }}
 
-            {{ range sort $group.Items "term" }}
+            {{/* 篩選出當前筆畫數的條目，並按 term 排序 */}}
+            {{ range sort (where $.Site.Data.glossary "strokes" $strokeNum) "term" }} {{/* 注意這裡的 $. */}}
             <div class="term-entry" id="term-{{ .uid }}">
                 <div class="term-header">
                     <h2>
