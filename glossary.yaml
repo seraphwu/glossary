@@ -12,12 +12,13 @@
   - text: 乙烯的分子式是C2H4,它是構造最簡單的烯類化合物,常溫中是氣態,為石油裂解的主要產物,也存在於有機物燃燒產生的煙中.乙烯也可由植物體自行生成,是一種重要的植物荷爾蒙,在植物生長發育過程中的某些階段,植物體或器官的乙烯生成量會漸漸升高,誘使植物體產生一些特定的生理反應.乙烯所影響的生理作用範圍很廣,如促進某些休眠種子的發芽,改變根、莖的生長,誘導鳳梨類植物的開花,促進葫蘆科瓜類的雌花形成,促進更年型果實的後熟及花朵的老化,促進葉綠素的分解與離層的產生.由於園產品在採收後的許多生理變化均與乙烯有關,因此如何控制乙烯是影響園產品採收後處理成敗的重要因素.
     author: 王自存
     source: 園藝科技術語/C01-0001-1.html#C01-0007
-  - text: ''
-    author: ''
-    source: https://agrovoc.fao.org/browse/agrovoc/en/page/c_2679
   - text: 乙烯（英語：Ethylene）是由两个碳原子和四个氢原子组成的化合物。两个碳原子之间用双键连接。 乙烯為合成纖維、合成橡膠、合成塑料（聚乙烯及聚氯乙烯）、合成乙醇（酒精）的基本化工原料，也用於制造氯乙烯、苯乙烯、環氧乙烷、醋酸、乙醛、乙醇和炸藥等，且可用作水果和蔬菜的催熟剂，是一種已證實的植物激素，也是石油化工發展水準之指標。
     author: ''
     source: https://dbpedia.org/page/Ethylene
+  - text: A gaseous plant growth regulator acting on various aspects of vegetative
+      growth, fruit ripening and abscission of plant parts.
+    author: ''
+    source: FAO Glossary of Biotechnology for Food and Agriculture, 2001 (http://www.fao.org/biotech/index_glossary.asp?lang=en).  https://www.fao.org/faoterm/en/
 - uid: '6'
   term: 乙氧基喹啉
   original_name: ethoxyquin
@@ -32,9 +33,6 @@
   - text: 常溫為黃色液體,常用於食品、飼料之抗氧化劑,在採收後處理上用於控制蘋果貯藏期所發生之表皮燙斑.
     author: 王自存
     source: 園藝科技術語/C01-0001-1.html#C01-0006
-  - text: ''
-    author: ''
-    source: https://agrovoc.fao.org/browse/agrovoc/en/page/c_28362
 - uid: '8'
   term: 乙烯生合成
   original_name: ethylene biosynthesis
@@ -180,6 +178,12 @@
       capacity)、質量與冷卻前後的溫度差相乘而得到.
     author: 王自存
     source: 園藝科技術語/C05-0385.HTML#C05-0387
+  - text: Sensible heat content of vegetable produce at harvest to be removed at first
+      stage of cooling.
+    author: ''
+    source: 'Small-Scale Postharvest Handling Practices: A Manual for Horticultural
+      Crops, Post-harvest Horticulture Series No. 8, University of California (http://www.fao.org/docrep/009/ae075e/ae075e03.htm).
+      https://www.fao.org/faoterm/en/'
 - uid: '437'
   term: 失水
   original_name: water loss
@@ -258,6 +262,17 @@
   - text: 利用冰水做為冷卻介質的預冷方法,依使用的方式分為沈浸式系統及沖淋式系統.
     author: 王自存
     source: 園藝科技術語/C06-0511.HTML#C06-0517
+  - text: 'context: The forced air cooling system includes cold air being forced to
+      pass through produce by means of a pressure gradient across packages. Cooling
+      is 4 to 10 times more rapid than room cooling and its rate depends on airflow
+      and the individual volume of produce. Amongst the wide range of systems available,
+      this is probably the most versatile. This is because it can be applied to all
+      crops, particularly berries, ripe tomatoes, bell peppers and many other fruits.
+      It is slow compared to hydrocooling but is a good alternative for crops requiring
+      rapid heat removal which cannot tolerate wetting or chlorine of cooling water.'
+    author: ''
+    source: 'context source: Manual for the preparation and sale of fruits and vegetables,
+      FAO, 2004 (http://www.fao.org/3/a-y4893e/y4893e06.htm). https://www.fao.org/faoterm/en/'
 - uid: '526'
   term: 地窖貯藏
   original_name: cellar storage
@@ -288,6 +303,13 @@
   - text: "\t是植物體或其器官發育過程的最後一個階段,緊接在生理成熟之後,此時個體內部整體的合成作用速率逐漸低於整體的分解作用,細胞開始失去維持其基本生理作用的能力,個體會出現各種老化的徵狀,最後導致個體的死亡.園藝上有許多作物在未達到生理成熟即行採收,由於失去水分與養分的供應,在採收後亦進入老化階段."
     author: 王自存
     source: 園藝科技術語/C06-0557.HTML#C06-0576
+  - text: A late stage in the development of multicellular organisms, during which
+      irreversible loss of function and degradation of biological components occur.
+      The physiological ageing process in which cells and tissues deteriorate and
+      finally die.
+    author: ''
+    source: FAO Glossary of Biotechnology for Food and Agriculture, 2001 (http://www.fao.org/biotech/index_glossary.asp?lang=en).
+      https://www.fao.org/faoterm/en/
 - uid: '644'
   term: 成熟度
   original_name: maturity
@@ -300,6 +322,11 @@
   - text: 指園藝作物或產品生長發育所達到的狀態.此一狀態以"成熟"的程度作為衡量標準,可用高、中、低等來區別其程度.
     author: 王自存
     source: 園藝科技術語/C06-0638.HTML#C06-0644
+  - text: Adults are immature at first and then their sexual organs develop, when
+      they are ready to copulate, i.e. they are mature. Mature adults are either pale
+      yellow (solitarious) or bright yellow (gregarious).
+    author: ''
+    source: 無定義來源 https://www.fao.org/faoterm/en/
 - uid: '645'
   term: 成熟度指標
   original_name: maturity index
@@ -341,6 +368,15 @@
   - text: 此類果實在發育之成熟至後熟階段,果實之呼吸速率會出現峰型變化,即由漸降而後驟然上升至一高峰,然後再下降,通常在呼吸高峰出現之同時或之前,果實之乙烯生成量亦會大幅增加.果實在呼吸上升之後開始進入後熟階段,其反應劇烈而明顯.所有更年型果實都有明顯的後熟作用,代表性的果實如香蕉、木瓜、番茄.
     author: 王自存
     source: 園藝科技術語/C07-0726.HTML#C07-0744
+  - text: Fruits having a ripening process that is accompanied by increased production
+      of ethylene due to the increase of respiration rate and continue ripening after
+      harvest. Climacteric fruits intended to be eaten when ripe should be harvested
+      at [the stage of physiological maturity appropriate stage of maturity] that
+      facilitates the ripening process accompanied by the fruit’s normal taste and
+      odour.
+    author: ''
+    source: REP22/FFV, FAO/WHO, 2022 (https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FMeetings%252FCX-731-22%252FFinal%252520report%252FREP22_FFVe_13%2BMay%2B2022.pdf).
+      https://www.fao.org/faoterm/en/
 - uid: '745'
   term: 更年期
   original_name: climacteric period
@@ -398,6 +434,13 @@
   - text: 此類果實在發育之成熟與後熟階段,果實呼吸速率呈逐漸下降趨勢,乙烯之生成亦維持在很低之量.這類果實的後熟作用通常緩慢或不明顯,代表性的果實如柑桔、葡萄.
     author: 王自存
     source: 園藝科技術語/C08-0812.HTML#C08-0839
+  - text: Fruits having a ripening process that is not accompanied by increased respiration
+      rate and are unable to continue ripening after harvest. Non-climacteric fruits
+      intended to be eaten when ripe should be harvested at its maximum maturity or
+      early ripe stages.
+    author: ''
+    source: REP22/FFV, FAO/WHO, 2022 (https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FMeetings%252FCX-731-22%252FFinal%252520report%252FREP22_FFVe_13%2BMay%2B2022.pdf).
+      https://www.fao
 - uid: '865'
   term: 定位包裝
   original_name: place-packing
@@ -492,6 +535,24 @@
   - text: 將裝在容器中的產品按一定的方法堆放在有冷風循環的冷藏庫中,利用冷風將熱移去.此方法的降溫速度慢,適用於較耐貯放的蔬果產品.
     author: 王自存
     source: 園藝科技術語/C09-1252.HTML#C09-1255
+  - text: Method of cooling when electricity for mechanical refrigeration is available.
+    author: ''
+    source: 'Small-Scale Postharvest Handling Practices: A Manual for Horticultural
+      Crops, Postharvest Technology Research and Information Center, University of
+      California, 2004 (http://www.fao.org/docrep/009/ae075e/ae075e13.htm). https://www.fao.org/faoterm/en/'
+  - text: 'Remarks: When using room cooling, produce is simply loaded into a cold
+      room, and cold air is allowed to circulate among the cartons, sacks, bins or
+      bulk load. This cooling method is best suited to less perishable commodities
+      such as potatoes, onions, apples, sweet potatoes and citrus fruits, since more
+      highly perishable crops will deteriorate too much before being adequately cooled.
+      Room cooling may be all you need if you handle chilling sensitive crops that
+      need to be cooled from early morning harvest temperatures to storage temperatures
+      of 10 to 13 ºC (50-55 ºF). The design and operation of cold rooms are fairly
+      simple and no special equipment is required.'
+    author: ''
+    source: 'Small-Scale Postharvest Handling Practices: A Manual for Horticultural
+      Crops, Postharvest Technology Research and Information Center, University of
+      California, 2004 (http://www.fao.org/docrep/009/ae075e/ae075e13.htm). https://www.fao.org/faoterm/en/'
 - uid: '1435'
   term: 氣調貯藏
   original_name: controlled atmosphere storage
@@ -532,6 +593,20 @@
       應用氣變包裝需考慮產品耐低氧及高二氧化碳濃度的範圍，及控制在低溫下以維持品質，未來包裝膜應發展技術包括以生物感應器偵測膜內的新陳代謝（如乙醛），增加氧氣及二氧化碳的透氣性，及具有環保性的包裝膜，如：生物分解膜、光分解材料、水溶性或可食用的包裝膜等，以減少環境的污染。'
     author: 另查
     source: https://kmweb.moa.gov.tw/subject/subject.php?id=24134
+  - text: Packaging in which the atmosphere surrounding the fish is different from
+      the normal composition of air.
+    author: ''
+    source: Code of practice for fish and fishery products, Codex Alimentarius, FAO,
+      2003 (http://www.fao.org/3/a1553e/a1553e00.pdf). https://www.fao.org/faoterm/en/
+  - text: Replacing the air in a pack of fish with a different mixture of gases, typically
+      some combination of carbon dioxide, nitrogen and oxygen. The proportion of each
+      component gas is fixed when the mixture is introduced, but no further control
+      is exercised during storage, and the composition of the mixture may slowly change.
+      Modified atmosphere packing is often incorrectly called controlled atmosphere
+      packing, CAP.
+    author: ''
+    source: Packing Fish in a Modified Atmosphere, FAO in partnership with the Support
+      Unit for International Fisheries and Aquatic Research, SIFAR, 2001. https://www.fao.org/faoterm/en/
 - uid: '1437'
   term: 氣變貯藏
   original_name: modified atmosphere storage
@@ -576,6 +651,11 @@
   - text: 將產品放在不透氣的耐壓倉中,以真空幫浦將倉內大氣抽出至接近真空,此時水的沸點降至常溫以下,因此開始蒸發,由於蒸發需要吸收大量的熱量,因此會將產品的熱帶走,使其溫度迅速降低.真空預冷速度快、效率高,最適於表面積大的葉菜類蔬菜.
     author: 王自存
     source: 園藝科技術語/C10-1449.HTML#C10-1456
+  - text: Heat removal from produce packed in shipping containers by drawing a vacuum
+      in a chamber.
+    author: ''
+    source: CAC/RCP 44-1995, Recommended International Code of Practice for Packaging
+      and Transport of Tropical Fresh Fruit and Vegetables, FAO, 1995. https://www.fao.org/faoterm/en/
 - uid: '1468'
   term: 差壓預冷
   original_name: forced-air cooling
@@ -617,7 +697,7 @@
   category:
   - 採收後處理-生理
   definitions:
-  - text: "\t為ACC合成�k之抑制劑,抑制能力甚強,可以顯著抑制高等植物體內之乙烯生成,可用於切花保鮮,以抑制某些花朵之老化."
+  - text: 為ACC合成�k(合成酶?)之抑制劑,抑制能力甚強,可以顯著抑制高等植物體內之乙烯生成,可用於切花保鮮,以抑制某些花朵之老化.
     author: 王自存
     source: 園藝科技術語/C10-1495.HTML#C10-1495
 - uid: '1497'
@@ -631,7 +711,7 @@
   category:
   - 採收後處理-生理
   definitions:
-  - text: "\t為ACC合成�k之抑制劑,具有抑制高等植物體內乙烯生合成之效果,可用於切花保鮮,以抑制某些花朵之老化."
+  - text: 為ACC合成�k之抑制劑,具有抑制高等植物體內乙烯生合成之效果,可用於切花保鮮,以抑制某些花朵之老化.
     author: 王自存
     source: 園藝科技術語/C10-1495.HTML#C10-1497
 - uid: '1543'
@@ -644,7 +724,7 @@
   category:
   - 採收後處理-技術
   definitions:
-  - text: "\t任何一種切花自插入水中起至開始凋謝止,這段具有觀賞價值的期間."
+  - text: 任何一種切花自插入水中起至開始凋謝止,這段具有觀賞價值的期間.
     author: 王自存
     source: 園藝科技術語/C11-1527.HTML#C11-1543
 - uid: '1586'
@@ -728,6 +808,18 @@
   - text: 專用於堆高機用大木箱(pallet bins)的一種差壓預冷方法.木箱的底部靠近地面有一窄縫供堆高機的舉升叉插入,箱子底面有條狀的開孔,將四個大木箱上下併排整齊堆放在抽氣冷牆之前,冷牆有二條開孔分別與第一、二木箱及第三、四木箱之間的窄縫相對應,預冷時將此窄縫靠室內的面用木板封住,如此由其他窄縫進入木箱底部的冷空氣無法直接抽入冷牆中,必需先垂直進入木箱內通過產品,再由上方或下方的窄縫出去,經由此種蛇行式的冷氣流動,達到預冷的目的.
     author: 王自存
     source: 園藝科技術語/C11-1722.HTML#C11-1733
+  - text: A serpentine system is designed for bulk bin cooling. It is a modification
+      of the cold-wall method. Bulk bins have vented bottoms with or without side
+      ventilation. Bins are stacked several high and several deep with the forklift
+      openings against the cold wall. Every other forklift opening—sealed with canvas—in
+      the stack matches a cold wall opening. The alternate unsealed forklift opening
+      allows cold air to circulate through the produce. Cold room air is drawn through
+      the produce via the alternate unsealed openings in the stack and the top of
+      the bin.
+    author: ''
+    source: Small Farmers Agribusiness Consortium (SFAC). (2022, May 24). Draft post-harvest
+      management standard operating procedures for fruits and vegetables. Retrieved
+      from https://sfacindia.com/UploadFile/Statistics/Draft-PHM-SOP-Fruits-and-Vegetables-24-May-2022.pdf
 - uid: '1760'
   term: 採收
   original_name: harvesting
@@ -739,7 +831,7 @@
   - 栽培-栽培技術
   - 採收後處理-技術
   definitions:
-  - text: "\t當園產品之生長發育達到具有利用價值時,以任何一種方式將其自樹上、母株或土中分離並收集在一起的作業.採收的方式依產品而不同,包括採摘、剪取、割取、挖掘等."
+  - text: 當園產品之生長發育達到具有利用價值時,以任何一種方式將其自樹上、母株或土中分離並收集在一起的作業.採收的方式依產品而不同,包括採摘、剪取、割取、挖掘等.
     author: 王自存
     source: 園藝科技術語/C11-1741.HTML#C11-1760
 - uid: '1761'
@@ -754,6 +846,16 @@
   - text: 指各種新鮮的園產品,包括蔬菜、水果、切花、觀賞植物及種苗等等,從被採收開始,一直到被消費、利用或加工為止,這段期間內對於產品本身所做的各種處理工作.這些工作包括運往市場前的準備工作如清洗、修整、選別、分級、包裝、預冷、運輸等,長時間的貯藏,以及針對特別目的所做的處理如催熟、催色、滅蟲處理等.
     author: 王自存
     source: 園藝科技術語/C11-1741.HTML#C11-1761
+  - text: Postharvest handling is the stage of crop production immediately following
+      harvest, including cooling, cleaning, sorting, and packing. The instant a crop
+      is removed from the ground, or separated from its parent plant, it begins to
+      deteriorate. Postharvest treatment largely determines final quality, whether
+      a crop is sold for fresh consumption, or used as an ingredient in a processed
+      food product.
+    author: ''
+    source: Small Farmers Agribusiness Consortium (SFAC). (2022, May 24). Draft post-harvest
+      management standard operating procedures for fruits and vegetables. Retrieved
+      from https://sfacindia.com/UploadFile/Statistics/Draft-PHM-SOP-Fruits-and-Vegetables-24-May-2022.pdf
 - uid: '1812'
   term: 普通通風貯藏
   original_name: air-cooled storage
@@ -765,7 +867,7 @@
   category:
   - 採收後處理-技術
   definitions:
-  - text: "\t是普通貯藏的一種方式,以建於地上或一半地下的普通通風貯藏庫來進行貯藏.庫房的構造型式並不一定,但基本上應具有隔熱與通風二項特性,當外界溫度較低時,打開通風口引入低溫空氣,當外界溫度較高時,關閉通風口以維持低溫環境,達到貯藏之目的."
+  - text: 是普通貯藏的一種方式,以建於地上或一半地下的普通通風貯藏庫來進行貯藏.庫房的構造型式並不一定,但基本上應具有隔熱與通風二項特性,當外界溫度較低時,打開通風口引入低溫空氣,當外界溫度較高時,關閉通風口以維持低溫環境,達到貯藏之目的.
     author: 王自存
     source: 園藝科技術語/C12-1803.HTML#C12-1812
 - uid: '1813'
@@ -859,6 +961,11 @@
   - text: "\t指一定重量乾空氣中所含的水蒸氣的重量,其表示方法為公克/公斤乾空氣或公斤/公斤乾空氣.一空氣之絕對濕度不受溫度、壓力改變而影響."
     author: 王自存
     source: 園藝科技術語/C12-1949.HTML#C12-1977
+  - text: Total amount of water vapour in the air, normally expressed in grams of
+      water vapour in a cubic meter of air.
+    author: ''
+    source: TRG(A10.6)/GICM, FAO, 2005. Wildland Fire Management Terminology, FAO
+      (Updated Jan 2005). https://www.fao.org/faoterm/en/
 - uid: '2033'
   term: 貯藏
   original_name: storage
@@ -901,6 +1008,9 @@
   - text: "\t某些園產品是一些受檢疫害蟲的寄主,因此,在銷往外國或其他地區之前需要做一些特別的處理,將害蟲的卵、幼蟲、蛹及成蟲完全消滅.目前所使用的滅蟲處理方法可分為化學處理(燻蒸劑)、物理處理(低溫、蒸熱)及輻照處理."
     author: 王自存
     source: 園藝科技術語/C13-2096.HTML#C13-2103
+  - text: The application of procedures intended to eliminate infestation.
+    author: ''
+    source: OIE.2014. OIE-Terrestrial Animal Health Code V8-15/07/2014. https://www.fao.org/faoterm/en/
 - uid: '2113'
   term: 填裝
   original_name: jumble pack
@@ -929,6 +1039,11 @@
   - text: 在園產品表面覆蓋一層食品級蠟,以增進外觀光澤或減低失水.塗蠟通常用於一些水果及果菜,偶亦用於根菜
     author: 王自存
     source: 園藝科技術語/C13-2096.HTML#C13-2114
+  - text: Application of a fine layer of natural or synthetic wax to fruits in order
+      to prolong their shelf life and improve their appearance.
+    author: ''
+    source: CX/FFV 17/20/11, FAO/WHO, 2017 (https://www.fao.org/fao-who-codexalimentarius/sh-proxy/fr/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FMeetings%252FCX-731-20%252FWD%252Fffv20_11e.pdf).
+      https://www.fao.org/faoterm/en/
 - uid: '2121'
   term: 零售包裝
   original_name: packaging
@@ -944,6 +1059,9 @@
   - text: 將產品以零售單位的重量或數量包裝成各自獨立的小單元,零售包裝所用的材料或容器包括塑膠薄膜、塑膠袋、淺盤、細繩或帶子等.
     author: 王自存
     source: 園藝科技術語/C13-2096.HTML#C13-2121
+  - text: Material used in supporting, protecting or carrying a commodity.
+    author: ''
+    source: '[ISPM 20, 2004] https://www.fao.org/faoterm/en/'
 - uid: '2188'
   term: 催色
   original_name: degreening
@@ -957,6 +1075,10 @@
   - text: 在一定的溫度與濕度環境下,利用乙烯或乙烯類似物處理仍帶綠色的柑桔類果實,使其果皮中的葉綠素加速分解,轉變為成熟時應有的黃色或橘色,其目的是要改進果實的外觀色澤,以符合市場的要求.
     author: 王自存
     source: 園藝科技術語/C13-2141.HTML#C13-2188
+  - text: Accelerating the occurrence of a yellow pigmentation due to destruction
+      of chlorophyll.
+    author: ''
+    source: CX/FFV 17/20/11, FAO, 2017 (MU313). https://www.fao.org/faoterm/en/
 - uid: '2189'
   term: 催熟
   original_name: ripening treatment
@@ -1232,6 +1354,10 @@
       bromide;MB)、氫氰酸(hydrocyanic acid;HCN)、二氧化硫(sulfur dioxide;SO2)等.
     author: 王自存
     source: 園藝科技術語/C18-2707.HTML#C18-2725
+  - text: Treatment with a chemical agent that reaches the commodity wholly or primarily
+      in a gaseous state.
+    author: ''
+    source: '[FAO, 1990; revised FAO, 1995] https://www.fao.org/faoterm/en/'
 - uid: '2790'
   term: 癒傷處理
   original_name: curing
@@ -1249,6 +1375,17 @@
   - text: 指採收後,將產品放在一個特定的環境條件下一段時間,讓產品表面的傷口能夠迅速癒合或讓表皮乾枯形成保護層,以減少貯藏期間的失水及防止微生物入侵造成腐爛.
     author: 王自存
     source: 園藝科技術語/C18-2744.HTML#C18-2790
+  - text: Preserve (meat, fish, tobacco, or an animal skin) by salting, drying, or
+      smoking.
+    author: ''
+    source: Oxford English Dictionary, consulted in 2022 (https://www.lexico.com/definition/cure).
+      https://www.fao.org/faoterm/en/
+  - text: 'Remarks: Curing involves the techniques of drying, dry salting/brining
+      (soaking in salt solution) or smoking. These may be used alone or in various
+      combinations to produce a range of products with a long shelf-life.'
+    author: ''
+    source: Small-scale food processing, A guide for appropriate equipment, CTA, 1992
+      (http://www.fao.org/Wairdocs/X5434E/x5434e0f.htm). https://www.fao.org/faoterm/en/
 - uid: '2956'
   term: 露點
   original_name: dew point
@@ -1344,6 +1481,20 @@
   - text: 也稱作強制通風冷卻（Forced-air cooling），不同於室內風冷，其降溫的原理是利用抽風扇，在包裝紙箱的兩側製造壓力的差異，利用空氣會從壓力高處往壓力低處流動的原理，主動地使冷空氣由包裝箱一側的通風孔進入包裝箱中，直接與產品接觸後，由另一側通風孔流出，同時將箱內的熱帶走。
     author: 另查
     source: https://kmweb.moa.gov.tw/subject/subject.php?id=42617
+- uid: '2025110401'
+  term: 強制通風冷卻
+  original_name: Forced-air cooling
+  strokes: 11
+  aliases: []
+  related_terms: []
+  category: []
+  definitions:
+  - text: The use of rapid movement of refrigerated air over fresh fruits and vegetables
+      in cold rooms.
+    author: ''
+    source: ALINORM 03/13, Report of the Session of the Codex Committee on Food Hygiene,
+      Joint FAO/WHO Food Standards Programme, Codex Alimentarius Commission, FAO/WHO,
+      2003. https://www.fao.org/faoterm/en/
 - uid: '2025102904'
   term: 冰水預冷
   original_name: Hydrocooling
@@ -1368,6 +1519,11 @@
   - text: 在高山上煮飯時，時常會遇到水煮開了，食物卻煮不熟的問題，是因為氣壓變小，水的沸點也會跟著降低，真空預冷（Vacuum cooling）就是利用這個原理，使用抽氣設備降低大氣壓力，同時降低水的沸點，使農產品的水分汽化，帶走熱量，來達到降溫效果的技術。
     author: 另查
     source: https://kmweb.moa.gov.tw/subject/subject.php?id=42618
+  - text: Heat removal from produce packed in shipping containers by drawing a vacuum
+      in a chamber.
+    author: ''
+    source: CAC/RCP 44-1995, Recommended International Code of Practice for Packaging
+      and Transport of Tropical Fresh Fruit and Vegetables, FAO, 1995. https://www.fao.org/faoterm/en/
 - uid: '2025102906'
   term: 風冷
   original_name: Air cooling

@@ -95,15 +95,15 @@
 
 ---
 
-
-
-> **來源：** https://agrovoc.fao.org/browse/agrovoc/en/page/c_2679
-
----
-
 乙烯（英語：Ethylene）是由两个碳原子和四个氢原子组成的化合物。两个碳原子之间用双键连接。 乙烯為合成纖維、合成橡膠、合成塑料（聚乙烯及聚氯乙烯）、合成乙醇（酒精）的基本化工原料，也用於制造氯乙烯、苯乙烯、環氧乙烷、醋酸、乙醛、乙醇和炸藥等，且可用作水果和蔬菜的催熟剂，是一種已證實的植物激素，也是石油化工發展水準之指標。
 
 > **來源：** https://dbpedia.org/page/Ethylene
+
+---
+
+A gaseous plant growth regulator acting on various aspects of vegetative growth, fruit ripening and abscission of plant parts.
+
+> **來源：** FAO Glossary of Biotechnology for Food and Agriculture, 2001 (http://www.fao.org/biotech/index_glossary.asp?lang=en).  https://www.fao.org/faoterm/en/
 
 ---
 
@@ -123,12 +123,6 @@
 
 > **來源：** 園藝科技術語/C01-0001-1.html#C01-0006
 > **作者：** 王自存
-
----
-
-
-
-> **來源：** https://agrovoc.fao.org/browse/agrovoc/en/page/c_28362
 
 ---
 
@@ -323,6 +317,12 @@
 
 ---
 
+Sensible heat content of vegetable produce at harvest to be removed at first stage of cooling.
+
+> **來源：** Small-Scale Postharvest Handling Practices: A Manual for Horticultural Crops, Post-harvest Horticulture Series No. 8, University of California (http://www.fao.org/docrep/009/ae075e/ae075e03.htm). https://www.fao.org/faoterm/en/
+
+---
+
 ### 失水 (water loss)
 
 **UID：** `437`
@@ -415,6 +415,12 @@
 
 ---
 
+context: The forced air cooling system includes cold air being forced to pass through produce by means of a pressure gradient across packages. Cooling is 4 to 10 times more rapid than room cooling and its rate depends on airflow and the individual volume of produce. Amongst the wide range of systems available, this is probably the most versatile. This is because it can be applied to all crops, particularly berries, ripe tomatoes, bell peppers and many other fruits. It is slow compared to hydrocooling but is a good alternative for crops requiring rapid heat removal which cannot tolerate wetting or chlorine of cooling water.
+
+> **來源：** context source: Manual for the preparation and sale of fruits and vegetables, FAO, 2004 (http://www.fao.org/3/a-y4893e/y4893e06.htm). https://www.fao.org/faoterm/en/
+
+---
+
 ### 地窖貯藏 (cellar storage)
 
 **UID：** `526`
@@ -453,6 +459,12 @@
 
 ---
 
+A late stage in the development of multicellular organisms, during which irreversible loss of function and degradation of biological components occur. The physiological ageing process in which cells and tissues deteriorate and finally die.
+
+> **來源：** FAO Glossary of Biotechnology for Food and Agriculture, 2001 (http://www.fao.org/biotech/index_glossary.asp?lang=en). https://www.fao.org/faoterm/en/
+
+---
+
 ### 成熟度 (maturity)
 
 **UID：** `644`
@@ -465,6 +477,12 @@
 
 > **來源：** 園藝科技術語/C06-0638.HTML#C06-0644
 > **作者：** 王自存
+
+---
+
+Adults are immature at first and then their sexual organs develop, when they are ready to copulate, i.e. they are mature. Mature adults are either pale yellow (solitarious) or bright yellow (gregarious).
+
+> **來源：** 無定義來源 https://www.fao.org/faoterm/en/
 
 ---
 
@@ -536,6 +554,12 @@
 
 > **來源：** 園藝科技術語/C07-0726.HTML#C07-0744
 > **作者：** 王自存
+
+---
+
+Fruits having a ripening process that is accompanied by increased production of ethylene due to the increase of respiration rate and continue ripening after harvest. Climacteric fruits intended to be eaten when ripe should be harvested at [the stage of physiological maturity appropriate stage of maturity] that facilitates the ripening process accompanied by the fruit’s normal taste and odour.
+
+> **來源：** REP22/FFV, FAO/WHO, 2022 (https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FMeetings%252FCX-731-22%252FFinal%252520report%252FREP22_FFVe_13%2BMay%2B2022.pdf). https://www.fao.org/faoterm/en/
 
 ---
 
@@ -611,6 +635,12 @@
 
 > **來源：** 園藝科技術語/C08-0812.HTML#C08-0839
 > **作者：** 王自存
+
+---
+
+Fruits having a ripening process that is not accompanied by increased respiration rate and are unable to continue ripening after harvest. Non-climacteric fruits intended to be eaten when ripe should be harvested at its maximum maturity or early ripe stages.
+
+> **來源：** REP22/FFV, FAO/WHO, 2022 (https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FMeetings%252FCX-731-22%252FFinal%252520report%252FREP22_FFVe_13%2BMay%2B2022.pdf). https://www.fao
 
 ---
 
@@ -733,6 +763,18 @@
 
 > **來源：** 園藝科技術語/C09-1252.HTML#C09-1255
 > **作者：** 王自存
+
+---
+
+Method of cooling when electricity for mechanical refrigeration is available.
+
+> **來源：** Small-Scale Postharvest Handling Practices: A Manual for Horticultural Crops, Postharvest Technology Research and Information Center, University of California, 2004 (http://www.fao.org/docrep/009/ae075e/ae075e13.htm). https://www.fao.org/faoterm/en/
+
+---
+
+Remarks: When using room cooling, produce is simply loaded into a cold room, and cold air is allowed to circulate among the cartons, sacks, bins or bulk load. This cooling method is best suited to less perishable commodities such as potatoes, onions, apples, sweet potatoes and citrus fruits, since more highly perishable crops will deteriorate too much before being adequately cooled. Room cooling may be all you need if you handle chilling sensitive crops that need to be cooled from early morning harvest temperatures to storage temperatures of 10 to 13 ºC (50-55 ºF). The design and operation of cold rooms are fairly simple and no special equipment is required.
+
+> **來源：** Small-Scale Postharvest Handling Practices: A Manual for Horticultural Crops, Postharvest Technology Research and Information Center, University of California, 2004 (http://www.fao.org/docrep/009/ae075e/ae075e13.htm). https://www.fao.org/faoterm/en/
 
 ---
 
@@ -865,6 +907,18 @@
 
 ---
 
+Packaging in which the atmosphere surrounding the fish is different from the normal composition of air.
+
+> **來源：** Code of practice for fish and fishery products, Codex Alimentarius, FAO, 2003 (http://www.fao.org/3/a1553e/a1553e00.pdf). https://www.fao.org/faoterm/en/
+
+---
+
+Replacing the air in a pack of fish with a different mixture of gases, typically some combination of carbon dioxide, nitrogen and oxygen. The proportion of each component gas is fixed when the mixture is introduced, but no further control is exercised during storage, and the composition of the mixture may slowly change. Modified atmosphere packing is often incorrectly called controlled atmosphere packing, CAP.
+
+> **來源：** Packing Fish in a Modified Atmosphere, FAO in partnership with the Support Unit for International Fisheries and Aquatic Research, SIFAR, 2001. https://www.fao.org/faoterm/en/
+
+---
+
 ### 氣變貯藏 (modified atmosphere storage)
 
 **UID：** `1437`
@@ -908,6 +962,12 @@
 
 ---
 
+Heat removal from produce packed in shipping containers by drawing a vacuum in a chamber.
+
+> **來源：** CAC/RCP 44-1995, Recommended International Code of Practice for Packaging and Transport of Tropical Fresh Fruit and Vegetables, FAO, 1995. https://www.fao.org/faoterm/en/
+
+---
+
 ### 氨乙氧乙烯基甘胺酸 (AVG)
 
 **UID：** `1495`
@@ -920,7 +980,7 @@
 
 #### 定義
 
-為ACC合成�k之抑制劑,抑制能力甚強,可以顯著抑制高等植物體內之乙烯生成,可用於切花保鮮,以抑制某些花朵之老化.
+為ACC合成�k(合成酶?)之抑制劑,抑制能力甚強,可以顯著抑制高等植物體內之乙烯生成,可用於切花保鮮,以抑制某些花朵之老化.
 
 > **來源：** 園藝科技術語/C10-1495.HTML#C10-1495
 > **作者：** 王自存
@@ -975,6 +1035,12 @@
 
 > **來源：** https://kmweb.moa.gov.tw/subject/subject.php?id=42618
 > **作者：** 另查
+
+---
+
+Heat removal from produce packed in shipping containers by drawing a vacuum in a chamber.
+
+> **來源：** CAC/RCP 44-1995, Recommended International Code of Practice for Packaging and Transport of Tropical Fresh Fruit and Vegetables, FAO, 1995. https://www.fao.org/faoterm/en/
 
 ---
 
@@ -1087,6 +1153,12 @@
 
 ---
 
+A serpentine system is designed for bulk bin cooling. It is a modification of the cold-wall method. Bulk bins have vented bottoms with or without side ventilation. Bins are stacked several high and several deep with the forklift openings against the cold wall. Every other forklift opening—sealed with canvas—in the stack matches a cold wall opening. The alternate unsealed forklift opening allows cold air to circulate through the produce. Cold room air is drawn through the produce via the alternate unsealed openings in the stack and the top of the bin.
+
+> **來源：** Small Farmers Agribusiness Consortium (SFAC). (2022, May 24). Draft post-harvest management standard operating procedures for fruits and vegetables. Retrieved from https://sfacindia.com/UploadFile/Statistics/Draft-PHM-SOP-Fruits-and-Vegetables-24-May-2022.pdf
+
+---
+
 ### 採收 (harvesting)
 
 **UID：** `1760`
@@ -1116,6 +1188,24 @@
 
 > **來源：** 園藝科技術語/C11-1741.HTML#C11-1761
 > **作者：** 王自存
+
+---
+
+Postharvest handling is the stage of crop production immediately following harvest, including cooling, cleaning, sorting, and packing. The instant a crop is removed from the ground, or separated from its parent plant, it begins to deteriorate. Postharvest treatment largely determines final quality, whether a crop is sold for fresh consumption, or used as an ingredient in a processed food product.
+
+> **來源：** Small Farmers Agribusiness Consortium (SFAC). (2022, May 24). Draft post-harvest management standard operating procedures for fruits and vegetables. Retrieved from https://sfacindia.com/UploadFile/Statistics/Draft-PHM-SOP-Fruits-and-Vegetables-24-May-2022.pdf
+
+---
+
+### 強制通風冷卻 (Forced-air cooling)
+
+**UID：** `2025110401`
+
+#### 定義
+
+The use of rapid movement of refrigerated air over fresh fruits and vegetables in cold rooms.
+
+> **來源：** ALINORM 03/13, Report of the Session of the Codex Committee on Food Hygiene, Joint FAO/WHO Food Standards Programme, Codex Alimentarius Commission, FAO/WHO, 2003. https://www.fao.org/faoterm/en/
 
 ---
 
@@ -1251,6 +1341,12 @@
 
 ---
 
+Total amount of water vapour in the air, normally expressed in grams of water vapour in a cubic meter of air.
+
+> **來源：** TRG(A10.6)/GICM, FAO, 2005. Wildland Fire Management Terminology, FAO (Updated Jan 2005). https://www.fao.org/faoterm/en/
+
+---
+
 ### 貯藏 (storage)
 
 **UID：** `2033`
@@ -1324,6 +1420,12 @@
 
 ---
 
+The application of procedures intended to eliminate infestation.
+
+> **來源：** OIE.2014. OIE-Terrestrial Animal Health Code V8-15/07/2014. https://www.fao.org/faoterm/en/
+
+---
+
 ### 填裝 (jumble pack)
 
 **UID：** `2113`
@@ -1362,6 +1464,12 @@
 
 ---
 
+Application of a fine layer of natural or synthetic wax to fruits in order to prolong their shelf life and improve their appearance.
+
+> **來源：** CX/FFV 17/20/11, FAO/WHO, 2017 (https://www.fao.org/fao-who-codexalimentarius/sh-proxy/fr/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FMeetings%252FCX-731-20%252FWD%252Fffv20_11e.pdf). https://www.fao.org/faoterm/en/
+
+---
+
 ### 零售包裝 (packaging)
 
 **UID：** `2121`
@@ -1381,6 +1489,12 @@
 
 ---
 
+Material used in supporting, protecting or carrying a commodity.
+
+> **來源：** [ISPM 20, 2004] https://www.fao.org/faoterm/en/
+
+---
+
 ### 催色 (degreening)
 
 **UID：** `2188`
@@ -1395,6 +1509,12 @@
 
 > **來源：** 園藝科技術語/C13-2141.HTML#C13-2188
 > **作者：** 王自存
+
+---
+
+Accelerating the occurrence of a yellow pigmentation due to destruction of chlorophyll.
+
+> **來源：** CX/FFV 17/20/11, FAO, 2017 (MU313). https://www.fao.org/faoterm/en/
 
 ---
 
@@ -1767,6 +1887,12 @@
 
 ---
 
+Treatment with a chemical agent that reaches the commodity wholly or primarily in a gaseous state.
+
+> **來源：** [FAO, 1990; revised FAO, 1995] https://www.fao.org/faoterm/en/
+
+---
+
 ### 癒傷處理 (curing)
 
 **UID：** `2790`
@@ -1783,6 +1909,18 @@
 
 > **來源：** 園藝科技術語/C18-2744.HTML#C18-2790
 > **作者：** 王自存
+
+---
+
+Preserve (meat, fish, tobacco, or an animal skin) by salting, drying, or smoking.
+
+> **來源：** Oxford English Dictionary, consulted in 2022 (https://www.lexico.com/definition/cure). https://www.fao.org/faoterm/en/
+
+---
+
+Remarks: Curing involves the techniques of drying, dry salting/brining (soaking in salt solution) or smoking. These may be used alone or in various combinations to produce a range of products with a long shelf-life.
+
+> **來源：** Small-scale food processing, A guide for appropriate equipment, CTA, 1992 (http://www.fao.org/Wairdocs/X5434E/x5434e0f.htm). https://www.fao.org/faoterm/en/
 
 ---
 
